@@ -1,0 +1,67 @@
+# requirements.txt
+# Created: 2025-02-03 14:22:39 UTC
+# Last modified: 2025-02-03 14:22:39 UTC
+# Author: drphon
+# Repository: drphon/chat-6-deepseek
+
+# Core dependencies
+aiohttp>=3.9.1
+beautifulsoup4>=4.12.2
+pandas>=2.1.3
+numpy>=1.24.3
+python-magic>=0.4.27
+Pillow>=10.0.1
+urllib3>=2.1.0
+chardet>=5.2.0
+
+# Selenium and related
+selenium>=4.15.2
+webdriver-manager>=4.0.1
+fake-useragent>=1.4.0
+chromedriver-autoinstaller>=0.6.2
+
+# Async support
+asyncio>=3.4.3
+aiofiles>=23.2.1
+aiodns>=3.1.1
+aiohttp-socks>=0.8.3
+aioresponses>=0.7.4
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+pytest-timeout>=2.1.0
+coverage>=7.3.2
+
+# Utilities
+python-dotenv>=1.0.0
+psutil>=5.9.6
+requests>=2.31.0
+tqdm>=4.66.1
+colorama>=0.4.6
+click>=8.1.7
+
+# Data processing
+lxml>=4.9.3
+html5lib>=1.1
+openpyxl>=3.1.2
+PyYAML>=6.0.1
+jsonschema>=4.20.0
+
+# Type checking
+mypy>=1.7.0
+types-requests>=2.31.0.10
+types-beautifulsoup4>=4.12.0.7
+types-PyYAML>=6.0.12.12
+
+# Code quality
+black>=23.11.0
+flake8>=6.1.0
+isort>=5.12.0
+pylint>=3.0.2
+bandit>=1.7.5
+
+# Last modified: 2025-02-03 14:22:39 UTC
+# End of requirements.txt

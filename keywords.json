@@ -1,0 +1,14 @@
+echo {
+  "keywords": [
+    "python web scraping",
+    "async programming",
+    "data extraction",
+    "html parsing",
+    "web automation"
+  ],
+  "settings": {
+    "results_per_keyword": 10,
+    "min_content_length": 500,
+    "max_content_length": 50000
+  }
+} > keywords.json
