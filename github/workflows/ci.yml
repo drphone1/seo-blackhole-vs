@@ -1,0 +1,11 @@
+name: Windows Web Scraper CI  # نام workflow
+
+on:  # تعیین زمان اجرا
+  push:
+    branches: [ main ]  # اجرا در هنگام push به شاخه main
+  pull_request:
+    branches: [ main ]  # اجرا در هنگام ایجاد pull request به main
+
+jobs:  # تعریف کارهایی که باید انجام شود
+  test:  # یک job به نام test
+    runs-on: windows-latest  # اجرا روی آخرین نسخه ویندوز
